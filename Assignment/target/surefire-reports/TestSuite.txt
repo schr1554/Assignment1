@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.255 sec <<< FAILURE! - in TestSuite
+testCreateDuplicateUsername(test.AccountManagerTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: Should have thrown AccountException
+	at test.AccountManagerTest.testCreateDuplicateUsername(AccountManagerTest.java:223)
+
+testRegistration(test.AccountManagerTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<110000> but was:<10000>
+	at test.AccountManagerTest.testRegistration(AccountManagerTest.java:252)
+
+testSetGet(test.DaoTest)  Time elapsed: 0.031 sec  <<< FAILURE!
+java.lang.AssertionError: expected null, but was:<main.java.edu.uw.ajs.account.AddressImpl@6dc17b83>
+	at test.DaoTest.testSetGet(DaoTest.java:360)
+

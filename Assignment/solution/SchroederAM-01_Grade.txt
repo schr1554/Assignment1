@@ -1,0 +1,19 @@
+Properly packaged (10 points):                        10
+Compiles without errors (30 points):                  30
+Application executes and/or tests pass (20 points):   18
+Assignment specific (40 points): 
+   
+MessageDigest usage (5 points)                        5
+
+DAO Implementation (20 points)                     
+       General                                               10
+DataInputStream/DataOutputStream usage         	      10
+
+Account/Account Manager Implementation (10 points)    10
+
+Spring Context (5 points)                             5
+--------------------------------------------------------
+Total:                                               98
+
+Comments:
+--------------------------------------------------------------------------------Not all test pass
